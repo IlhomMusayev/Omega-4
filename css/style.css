@@ -14,7 +14,7 @@ ul, ol{
     list-style: none;
 }
 .container{
-    width: 1000px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ header{
     color: #fff;
 }
 .navbar{
-    width: 1350px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -49,6 +49,16 @@ header{
     background-color: #FEDC5A;
     color: #000;
     margin-left: 10px;
+}
+.mini-menu{
+    display: none;
+}
+.mini-menu button{
+    background: none;
+    border: none;
+}
+.mini-menu img{
+    filter: invert(100%);
 }
 /* ************************************Header************************************* */
 .header{
@@ -103,6 +113,7 @@ header{
 }
 .add-card{
     display: flex;
+    justify-content: start;
     padding: 10px;
 }
 .add-count{
@@ -202,7 +213,7 @@ header{
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
-    width: 800px;
+    width: 90%;
     background-color: #fff;
 
 }
@@ -324,7 +335,7 @@ header{
     align-items: center;   
 }
 .testimonial-box{
-    width: 430px;   
+    width: 100%;   
     background-color: #fff;
     border: 1px solid #dedede;
     border-radius: 3%;
@@ -395,6 +406,9 @@ footer{
     background-color: #FEDC5A;
     color: #000;
     padding: 18px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
 }
 .footer-bottom{
     display: flex;
@@ -416,3 +430,232 @@ footer{
 .footer-links ul li a{
     color: #000;
 }
+
+
+@media(max-width: 1260px){
+    .container{
+        width: 1000px;
+    }
+    .header-title h1{
+        font-size: 45px;
+    }
+    .content-title{
+        font-size: 45px;
+    }
+    .content-title h1{
+        font-size: 45px;
+    }
+    .content-title p{
+        width: 58%;
+    }
+    .footer-header h1{
+        font-size: 45px;
+    }
+    .header-text{
+        width: 50%;
+    }
+    .header-img{
+        width: 50%;
+    }
+
+    .content-text{
+        width: 50%;
+    }
+    .content-img{
+        width: 50%;
+    }
+    .content-img img{
+        width: 300px;
+    }
+    .content-list-items .content-title{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1060px){
+    .container{
+        width: 900px;
+    }
+    .content-4{ 
+        height: 100%;
+        background: url("../img/7.png") no-repeat   , #6565E9;
+        background-size: cover;
+        background-position: center right;
+    }
+
+}
+
+@media(max-width: 920px){
+    .container{
+        width: 820px;
+    }
+    .comment-p{
+        width: 80%;
+    }
+}
+@media(max-width: 820px){
+    .container{
+        width: 720px;
+    }
+    .header-title h1{
+        font-size: 35px;
+    }
+    .content-title{
+        font-size: 35px;
+    }
+    .content-title h1{
+        font-size: 35px;
+    }
+    .footer-header h1{
+        font-size: 35px;
+    }
+    .content-title p{
+        width: 90%;
+    }
+    .header-img img{ 
+        width: 200px;
+    }
+    .list-1, .list-2, .list-3{
+        width: 100%;
+        flex-direction: column;
+    }
+    .list-2{
+        width: 100%;
+        margin: 0;
+    }
+    .testimonial-boxs{
+        flex-direction: column;
+    }
+    .testimonial-box{
+        width: 100%;   
+    }
+    .footer-header h1{
+        width: 70%;
+    }
+    .buy-now-btn{
+        width: 25%;
+    }
+}
+@media(max-width: 720px){
+    .container{
+        width: 600px;
+    }
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-text{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .add-card{
+        justify-content: center;
+    }
+    .mini-menu{
+        display: block;
+    }
+    .mini-menu img{
+        width: 30px;
+    }
+    .navbar ul, .card{
+        display: none;
+    }
+    .content-item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-text{
+        width: 100%;
+    }
+    .content-img{
+        width: 100%;
+    }
+    .content-boxs{
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .comment-p{
+        width: 90%;
+    }
+    .footer-header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-header h1{
+        width: 100%;
+    }
+    .buy-now-btn{
+        display: inline-block;
+        width: 50%;
+        margin: 30px 0;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .footer-links{
+        padding: 20px 0;
+        margin: auto;
+    }
+
+ }
+
+@media(max-width: 600px){
+    .container{
+        width: 520px;
+    }
+}
+@media(max-width: 520px){
+    .container{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
